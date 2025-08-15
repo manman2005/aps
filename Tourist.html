@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>สถานที่ท่องเที่ยวเชียงราย</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* ลูกเล่นรูปซูมเมื่อ hover */
+    .img-zoom:hover {
+      transform: scale(1.05);
+      filter: brightness(1.1);
+    }
+    /* กล่องสถานที่ท่องเที่ยวเวลาลากเมาส์ */
+    .card-hover:hover {
+      box-shadow: 0 10px 20px rgba(29, 78, 216, 0.4);
+      transform: translateY(-5px);
+    }
+    /* transition ให้เนียน */
+    .img-zoom, .card-hover {
+      transition: all 0.3s ease;
+    }
+    /* animation header */
+    @keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    header h1 {
+      animation: fadeInDown 1s ease forwards;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <header class="bg-gradient-to-r from-blue-900 to-indigo-700 text-white text-center py-4 shadow-lg">
+    <h1 class="text-3xl font-bold">สถานที่ท่องเที่ยวเชียงราย</h1>
+  </header>
+
+  <nav class="bg-gradient-to-r from-blue-800 to-indigo-600 text-white text-center py-3 space-x-6 shadow-md">
+    <a href="index.html" class="hover:underline hover:text-blue-300 text-xl transition-colors">หน้าแรก</a>
+    <a href="Tourist.html" class="hover:underline hover:text-blue-300 text-xl transition-colors">สถานที่ท่องเที่ยวเชียงราย</a>
+    <a href="contact.html" class="hover:underline hover:text-blue-300 text-xl transition-colors">ติดต่อ</a>
+  </nav>
+
+  <section class="max-w-6xl mx-auto px-6 py-8 bg-white rounded-lg shadow-md">
+  <h2 class="text-2xl font-semibold text-gray-800 mb-6 text-center">แนะนำสถานที่ท่องเที่ยวจังหวัดเชียงราย</h2>
+  
+  <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+    เชียงรายเป็นจังหวัดที่อยู่เหนือสุดของประเทศไทยและมีประวัติศาสตร์ยาวนาน อีกทั้งยังมีป่าไม้ดอยสูงที่งดงามและเป็นแหล่งกำเนิดต้นน้ำและน้ำตกหลายแห่ง
+  </p>
+  
+  <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+    นอกจากนี้ เชียงรายยังมีประชากรหลากหลายเชื้อชาติที่มีวัฒนธรรมและวิถีชีวิตที่เป็นเอกลักษณ์ ซึ่งทำให้เชียงรายได้รับความสนใจจากนักท่องเที่ยวทั้งชาวไทยและชาวต่างชาติ
+  </p>
+  
+  <p class="text-lg text-gray-700 leading-relaxed">
+    กระปุกดอทคอมขอแนะนำสถานที่ท่องเที่ยวที่ไม่ควรพลาดเมื่อมาเยือนเชียงราย
+  </p>
+</section>
+
+
+  <section class="max-w-6xl mx-auto px-4 py-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+    <!-- รูป 1-20 -->
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/1.jpg" alt="วัดร่องขุ่น" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">วัดร่องขุ่นเชียงรายหรือวัดขาว</h2>
+      <p>วัดที่ออกแบบโดยอาจารย์เฉลิมชัย โฆษิตพิพัฒน์ มีการแกะสลักและศิลปะที่ทันสมัยและงดงาม</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/2.jpg" alt="วัดร่องเสือเต้น" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">วัดร่องเสือเต้นหรือวัดน้ำเงิน</h2>
+      <p>โดดเด่นด้วยสถาปัตยกรรมสีฟ้าสดใสและภาพจิตรกรรมฝาผนังที่งดงาม</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/3.jpg" alt="วัดห้วยปลากั้ง" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">วัดห้วยปลากั้งเชียงราย</h2>
+      <p>มีรูปปั้นเจ้าแม่กวนอิมขนาดใหญ่และเจดีย์ 9 ชั้นที่ให้ทัศนียภาพที่งดงาม</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/4.jpg" alt="ไร่บุญรอด" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">ไร่บุญรอดหรือสิงห์ปาร์ค</h2>
+      <p>สวนเกษตรขนาดใหญ่ที่มีไร่ชา สวนดอกไม้ และกิจกรรมกลางแจ้ง</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/5.jpg" alt="ดอยตุง" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">ดอยตุง</h2>
+      <p>มีพระตำหนักดอยตุงและสวนแม่ฟ้าหลวงที่มีการจัดแสดงดอกไม้ที่สวยงาม</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/6.jpg" alt="สามเหลี่ยมทองคำ" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">สามเหลี่ยมทองคำ</h2>
+      <p>พื้นที่ประวัติศาสตร์ที่สามประเทศ ไทย ลาว และพม่า มาบรรจบกัน</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/7.jpg" alt="พิพิธภัณฑ์บ้านดำ" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">พิพิธภัณฑ์บ้านดำ</h2>
+      <p>พิพิธภัณฑ์ที่มีงานศิลปะดั้งเดิมและร่วมสมัยโดยอาจารย์ถวัลย์ ดัชนี</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/8.jpg" alt="ภูชี้ฟ้า" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">ภูชี้ฟ้า</h2>
+      <p>จุดชมวิวพระอาทิตย์ขึ้นและทะเลหมอกที่สวยที่สุดในเชียงราย</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/9.jpg" alt="ศิลปะวัฒนธรรมแม่ฟ้าหลวง" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">อุทยานศิลปะและวัฒนธรรมแม่ฟ้าหลวง</h2>
+      <p>จัดแสดงสถาปัตยกรรมล้านนาและงานศิลปะหลากหลาย</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/10.jpg" alt="น้ำตกขุนกรณ์" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">น้ำตกขุนกรณ์</h2>
+      <p>น้ำตกที่สูงที่สุดในเชียงราย รายล้อมด้วยป่าธรรมชาติ</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/11.jpg" alt="ไร่ชาฉุยฟง" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">ไร่ชาฉุยฟง</h2>
+      <p>ไร่ชาที่มีวิวสวยพร้อมคาเฟ่และกิจกรรมชิมชา</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/12.jpg" alt="วัดพระแก้ว" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">วัดพระแก้ว</h2>
+      <p>วัดโบราณที่เคยประดิษฐานพระแก้วมรกต ปัจจุบันอยู่ในกรุงเทพ</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/13.jpg" alt="วัดพระสิงห์" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">วัดพระสิงห์</h2>
+      <p>วัดที่มีสถาปัตยกรรมล้านนาและพระพุทธรูปสำคัญ</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/14.jpg" alt="พิพิธภัณฑ์อูบคำ" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">พิพิธภัณฑ์อูบคำ</h2>
+      <p>จัดแสดงศิลปวัตถุล้านนาและของเก่าหายากจากภาคเหนือ</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/15.jpg" alt="ถ้ำหลวง" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">ถ้ำหลวง</h2>
+      <p>สถานที่กู้ภัยทีมฟุตบอลดัง ปัจจุบันเป็นแหล่งเรียนรู้และท่องเที่ยว</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/16.jpg" alt="บ่อน้ำร้อนป่าตึง" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">บ่อน้ำร้อนป่าตึง</h2>
+      <p>น้ำพุร้อนธรรมชาติ บรรยากาศเงียบสงบ เหมาะแก่การพักผ่อน</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/17.jpg" alt="แม่สาย" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">แม่สาย</h2>
+      <p>เมืองเหนือสุดของไทย มีตลาดชายแดนและของถูก</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/18.jpg" alt="วัดพระธาตุดอยจอมทอง" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">วัดพระธาตุดอยจอมทอง</h2>
+      <p>วัดที่อยู่บนเขา มองเห็นวิวเมืองเชียงราย</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/19.jpg" alt="อาสนวิหารพระหฤทัย" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">อาสนวิหารพระหฤทัยแห่งพระเยซูเจ้า</h2>
+      <p>โบสถ์คาทอลิกสวยงาม บรรยากาศสงบ</p>
+    </div>
+    <div class="bg-white shadow rounded card-hover p-4 text-center">
+      <img src="tourist/20.jpg" alt="เชียงแสน" class="w-full h-64 object-cover rounded img-zoom" />
+      <h2 class="text-xl font-bold mt-2 text-blue-900">เชียงแสน</h2>
+      <p>เมืองโบราณริมโขง มีโบราณสถานและวัดเก่าแก่</p>
+    </div>
+  </section>
+
+  <footer class="bg-gradient-to-r from-blue-900 to-indigo-700 text-white text-center py-6 mt-10 shadow-inner">
+    <p>รถตู้เช่าเชียงราย ป่ายางมนแวนทัวร์</p>
+    <nav class="mt-3 space-x-6">
+      <a href="index.html" class="hover:underline hover:text-blue-300 text-xl transition-colors">หน้าแรก</a>
+      <a href="Tourist.html" class="hover:underline hover:text-blue-300 text-xl transition-colors">สถานที่ท่องเที่ยว</a>
+      <a href="contact.html" class="hover:underline hover:text-blue-300 text-xl transition-colors">ติดต่อ</a>
+    </nav>
+  </footer>
+
+</body>
+</html>

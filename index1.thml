@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>รถตู้เช่าเชียงราย ป่ายางมนแวนทัวร์ </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #1d2d61;
+            color: white;
+            padding: 5px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #795f5f;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            background-image: url('path/to/hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .service {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            box-sizing: border-box;
+            flex: 1 1 calc(33.333% - 40px);
+        }
+        .service img {
+            max-width: 300px;
+            height: 300px;
+        }
+        .contact {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        footer {
+            background-color: #795f5f;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        h3 {text-align: center;}
+    </style>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16656096348">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16656096348');
+</script>
+<!-- Event snippet for การซื้อ conversion page -->
+<script>
+    gtag('event', 'conversion', {
+        'send_to': 'AW-16656096348/Enx5CN2uncYZENy4n4Y-',
+        'value': 1.0,
+        'currency': 'THB',
+        'transaction_id': ''
+    });
+  </script>
+  
+</head>
+<body>
+    <header>
+        <h1>รถตู้เช่าเชียงราย ป่ายางมนแวนทัวร์</h1>
+    </header>
+    <nav>
+        <a href="index.html" style="font-size: 26px;">หน้าแรก</a>
+        <a href="Tourist.html" style="font-size: 26px;">สถานที่ท่องเที่ยวเชียงราย</a>
+        <a href="contact.html" style="font-size: 26px;">ติดต่อ</a>
+    </nav>
+    <div class="hero">
+        <img src="img/nn0.png"height="20%" width="100%">
+    </div>
+    <div class="container">
+        <h1 id="services"><center>รถตู้เช่าเชียงราย ป่ายางมนแวนทัวร์</center></h1>
+        <tr>
+            <td>
+                <h2 style="font-size: 32px;">สนใจเช่ารถตู้เชียงราย ต้องทำอย่างไร</h2>
+            </td>
+            <td style="font-size: 26px;">
+                เรามีรถบริการทั้งภายในจังหวัดและต่างจังหวัด เชียงราย เชียงใหม่ ลำปาง แพร่ น่าน กรุงเทพ หรือจังหวัดอื่นๆ หรือสามรถเรียกใช้บริการรับส่งสนามบินโรงแรม รับโรงแรมส่งสนามบินก็ได้เช่นกัน เรามีรถจอดอยู่ใกล้เคียงสนามบินหรือห่างจากสนามบินประมาณ 15 นาที วิธีการจองรถตู้เชียงรายนั้นสามารถสอบถามข้อมูลรายละเอียดต่างๆและโปรโมชั่นเพิ่มเติมผ่านทาง LINE หรือ Facebook แล้วทำการจองตามที่แนะนำ เมื่อถึงเวลาเดินทางมา ทางเราจะแจ้งทะเบียนรถ และเวลารับชื่อคนขับพร้อมเบอร์โทรติดต่อให้ทราบก่อนวันเดินทาง เมื่อลูกค้าเดินทางมาถึงสนามบินหรือนัดจุดรับจะมีรถไปรอรับก่อนเวลา30นาที
+            </td>
+        </tr>        
+        <div class="services">
+            <div class="service">
+                <img src="img/nn13.jpg" alt="Car Rental">
+                <h3>รถตู้เชียงราย </h3>
+                <p>เริ่มต้นราคา1,800บาทต่อวันไม่รวมค่าน้ำมันมีบริการรับถึงที่นัดหมาย สามารถโทรหรือติดมาคุยกันก่อนได้</p>
+            </div>
+            <div class="service">
+                <img src="img/nn14.jpg" alt="Airport Transfers">
+                <h3>รถตู้เชียงราย VIP พาเที่ยว</h3>
+                <p>รถตู้เชียงรายสำหรับคณะผู้บริหาร ดารา นักแสดง หรือใช้ท่องเที่ยว ประชุม สัมนา แบบคณะ หรือครอบครัว</p>
+            </div>
+            <div class="service">
+                <img src="img/nn15.jpg" alt="Sightseeing Tours">
+                <h3>รถตู้เชียงราย ราคาถูก</h3>
+                <p>รถตู้เชียงรายมีบริการให้ พร้อมคนขับคนเชียงรายคนพื้นที่ชำนาญเส้นทางเป็นอย่างดี สามารถแนะนำที่พัก ร้านอาหาร และที่ท่องเที่ยวได้</p>
+            </div>
+            <div class="service">
+                <img src="img/nn9.jpg" alt="Sightseeing Tours">
+                <h3>รถตู้เชียงรายบริการดี</h3>
+                <p>รถตู้เชียงรายมีบริการให้ พร้อมคนขับคนเชียงรายคนพื้นที่ชำนาญเส้นทางเป็นอย่างดี สามารถแนะนำที่พัก ร้านอาหาร และที่ท่องเที่ยวได้</p>
+            </div>
+            <div class="service">
+                <img src="img/nn26.jpg" alt="Sightseeing Tours">
+                <h3></h3>
+            </div>
+            <div class="service">
+                <img src="img/nn27.jpg" alt="Sightseeing Tours">
+                <h3></h3>
+            </div>
+            <div class="service">
+                <img src="img/nn28.jpg" alt="Sightseeing Tours">
+                <h3></h3>
+            </div>
+            <div class="service">
+                <img src="img/nn29.jpg" alt="Sightseeing Tours">
+                <h3></h3>
+            </div>
+            <div class="service">
+                <img src="img/nn16.jpg" alt="Sightseeing Tours">
+                <h3>ลูกค้าของเรา</h3>
+            </div>
+            <div class="service">
+                <img src="img/nn17.jpg" alt="Sightseeing Tours">
+                <h3>ลูกค้าของเรา</h3>
+            </div>
+            <div class="service">
+                <img src="img/nn18.jpg" alt="Sightseeing Tours">
+                <h3>ลูกค้าของเรา</h3>
+            </div>
+            <div class="service">
+                <img src="img/nn19.jpg" alt="Sightseeing Tours">
+                <h3>ลูกค้าของเรา</h3>
+            </div>
+            <div class="service">
+                <img src="img/nn20.jpg" alt="Sightseeing Tours">
+                <h3>ลูกค้าของเรา</h3>
+            </div>
+            <div class="service">
+                <img src="img/nn21.jpg" alt="Sightseeing Tours">
+                <h3>ลูกค้าของเรา</h3>
+            </div>
+            <div class="service">
+                <img src="img/nn22.jpg" alt="Sightseeing Tours">
+                <h3>ลูกค้าของเรา</h3>
+            </div>
+            <div class="service">
+                <img src="img/nn23.jpg" alt="Sightseeing Tours">
+                <h3>ลูกค้าของเรา</h3>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <h2 style="font-size: 32px;">รถตู้เช่าเชียงราย VIP</h2>
+            <p style="font-size: 24px;">รถตู้เชียงราย ตกแต่งไฟแสงสว่างภายในห้องโดยสารให้สามารถมองเห็นยามค่ำคืนได้อย่างชัดเจน</p>
+            <p style="font-size: 24px;">แอร์เย็นสบายพร้อมระบบชาจน์แบตโทรศัพท์</p>
+        </div>
+    </div>
+    <footer>
+        <nav>
+            <a href="index.html" style="font-size: 26px;">หน้าแรก</a>
+            <a href="Tourist.html" style="font-size: 26px;">สถานที่ท่องเที่ยวเชียงราย</a>
+            <a href="contact.html" style="font-size: 26px;">ติดต่อ</a>
+        </nav>
+        <p> </p>
+        <p>รถตู้เช่าเชียงราย ป่ายางมนแวนทัวร์</p>
+    </footer>
+</body>
+</html>
